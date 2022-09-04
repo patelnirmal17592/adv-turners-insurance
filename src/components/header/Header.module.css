@@ -1,0 +1,10 @@
+.navbarContainer {
+  border: 1px solid red;
+  width: 100%;
+  height: 4em;
+}
+.navbarContainer .navbarWrapper {
+  border: 1px solid red;
+}
+
+/*# sourceMappingURL=Header.module.css.map */
