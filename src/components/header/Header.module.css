@@ -12,9 +12,22 @@
   display: flex;
   flex-direction: row;
 }
-.navbarContainer ul {
+
+.menu ul {
+  list-style-type: none;
+  display: flex;
+  gap: 4em;
+  align-items: center;
+}
+.menu ul li a {
   text-decoration: none;
-  color: black;
+  color: #0076BE;
+  font-weight: 600;
+}
+
+.logo img {
+  width: 12em;
+  padding: 1em 2em;
 }
 
 /*# sourceMappingURL=Header.module.css.map */
