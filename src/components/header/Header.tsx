@@ -12,10 +12,14 @@ const header = () => {
         <div className={style.menu}>
           <ul>
             <li>
-              <a href="vehicles">Vehicles</a>
+              <a href="vehicles">
+                Vehicles<i className="fa-solid fa-angle-down"></i>
+              </a>
             </li>
             <li>
-              <a href="auction">Auction</a>
+              <a href="auction">
+                Auction<i className="fa-solid fa-angle-down"></i>
+              </a>
             </li>
             <li>
               <a href="finance">Finance</a>
@@ -28,7 +32,10 @@ const header = () => {
             </li>
           </ul>
         </div>
-        <div className={style.contact}></div>
+        <div className={style.contact}>
+          <i className="fa-regular fa-envelope"></i>
+          <i className="fa-solid fa-phone"></i>
+        </div>
       </div>
     </div>
   );

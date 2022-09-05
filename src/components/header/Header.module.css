@@ -6,9 +6,10 @@
   margin: 0 0 0 auto;
   background-color: #E2E8F0;
   display: flex;
+  border-bottom-left-radius: 20px;
+  box-shadow: 0 10px 15px 5px #CCCCCC;
 }
 .navbarContainer .navbarWrapper .menu {
-  border: 1px solid blue;
   display: flex;
   flex-direction: row;
 }
@@ -16,7 +17,7 @@
 .menu ul {
   list-style-type: none;
   display: flex;
-  gap: 4em;
+  gap: 6em;
   align-items: center;
 }
 .menu ul li a {
@@ -24,10 +25,24 @@
   color: #0076BE;
   font-weight: 600;
 }
+.menu ul li a i {
+  padding-left: 0.3em;
+}
 
 .logo img {
   width: 12em;
-  padding: 1em 2em;
+  padding: 1.1em 3em;
+}
+
+.contact {
+  display: flex;
+  padding: 1.8em;
+  gap: 2em;
+  padding-left: 15em;
+}
+.contact i {
+  font-size: 1.2em;
+  color: #0076BE;
 }
 
 /*# sourceMappingURL=Header.module.css.map */

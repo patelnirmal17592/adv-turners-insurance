@@ -14,16 +14,18 @@ $background-navbar: #E2E8F0
         margin: 0 0 0 auto
         background-color: $background-navbar
         display: flex
-    
+        border-bottom-left-radius: 20px
+        box-shadow: 0 10px 15px 5px $grey-shadeA
+
         .menu
-            border: 1px solid blue
+            // border: 1px solid blue
             display: flex
             flex-direction: row
-        
+
 .menu ul
     list-style-type: none
     display: flex
-    gap: 4em
+    gap: 6em
     align-items: center
 
     li a
@@ -31,6 +33,19 @@ $background-navbar: #E2E8F0
         color: $primary-color
         font-weight: 600
 
+        i
+            padding-left: 0.3em
+
 .logo img
     width: 12em
-    padding: 1em 2em
+    padding: 1.1em 3em
+
+.contact
+    display: flex
+    padding: 1.8em
+    gap: 2em
+    padding-left: 15em
+
+    i
+        font-size: 1.2em
+        color: $primary-color
