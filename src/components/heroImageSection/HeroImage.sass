@@ -3,7 +3,7 @@
 .heroImageContainer
     width: 100%
     background-color: $primary-color
-    height: 60vh
+    height: 70vh
 
     .heroText
         // border: 1px solid red
@@ -37,5 +37,17 @@
             background-color: $background-navbar
         
     .heroImage
-        border: 1px solid red
-        
+        // border: 1px solid red
+        position: absolute
+        right: 0
+        top: 10em
+
+        img
+            background: fill
+            width: 35em
+            border-top-left-radius: 80px
+            border-bottom-left-radius: 80px
+            border: 30px solid $primary-color
+            border-right: none
+            box-shadow: 0 10px 15px -2px black
+            z-index: 1

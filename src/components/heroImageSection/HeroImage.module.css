@@ -49,7 +49,7 @@
 .heroImageContainer {
   width: 100%;
   background-color: #0076BE;
-  height: 60vh;
+  height: 70vh;
 }
 .heroImageContainer .heroText {
   width: 30%;
@@ -82,7 +82,19 @@
   background-color: #E2E8F0;
 }
 .heroImageContainer .heroImage {
-  border: 1px solid red;
+  position: absolute;
+  right: 0;
+  top: 10em;
+}
+.heroImageContainer .heroImage img {
+  background: fill;
+  width: 35em;
+  border-top-left-radius: 80px;
+  border-bottom-left-radius: 80px;
+  border: 30px solid #0076BE;
+  border-right: none;
+  box-shadow: 0 10px 15px -2px black;
+  z-index: 1;
 }
 
 /*# sourceMappingURL=HeroImage.module.css.map */
