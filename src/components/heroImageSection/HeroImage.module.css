@@ -1,9 +1,6 @@
 .navbarContainer {
   width: 100%;
   background-color: #0076BE;
-  position: sticky;
-  top: 0;
-  z-index: 1;
 }
 .navbarContainer .navbarWrapper {
   width: 95%;
@@ -11,7 +8,7 @@
   background-color: #E2E8F0;
   display: flex;
   border-bottom-left-radius: 20px;
-  box-shadow: 0 9px 60px black;
+  box-shadow: 0 10px 15px 5px #CCCCCC;
 }
 .navbarContainer .navbarWrapper .menu {
   display: flex;
@@ -49,4 +46,10 @@
   color: #0076BE;
 }
 
-/*# sourceMappingURL=Header.module.css.map */
+.heroImageContainer {
+  width: 100%;
+  background-color: #0076BE;
+  height: 100vh;
+}
+
+/*# sourceMappingURL=HeroImage.module.css.map */
