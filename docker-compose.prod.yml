@@ -1,0 +1,8 @@
+version: "3.9"
+
+services:
+  app:
+    container_name: mission-5-prod
+    image: mission-5-prod
+    build:
+      target: production
