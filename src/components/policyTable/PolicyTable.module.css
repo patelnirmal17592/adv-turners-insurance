@@ -97,6 +97,9 @@
   margin: 0 auto;
   color: #0076BE;
 }
+.policyTableContainer .wrapper .policyTable .primary {
+  border: 1px solid red;
+}
 .policyTableContainer .wrapper .policyTable .primary tr {
   display: flex;
   gap: 5em;
@@ -105,7 +108,16 @@
   margin-right: 25em;
 }
 .policyTableContainer .wrapper .policyTable .primary tr td:nth-of-type(1) {
-  margin-right: 25em;
+  margin-right: 20em;
+}
+.policyTableContainer .wrapper .policyTable .secondary {
+  border: 1px solid red;
+}
+.policyTableContainer .wrapper .policyTable .secondary tr th:nth-of-type(1) {
+  text-align: left;
+}
+.policyTableContainer .wrapper .policyTable .secondary tr td {
+  margin-left: 5em;
 }
 
 /*# sourceMappingURL=PolicyTable.module.css.map */
