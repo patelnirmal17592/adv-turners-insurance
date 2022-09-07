@@ -1,0 +1,123 @@
+.navbarContainer {
+  width: 100%;
+  background-color: #0076BE;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.navbarContainer .navbarWrapper {
+  width: 95%;
+  margin: 0 0 0 auto;
+  background-color: #E2E8F0;
+  display: flex;
+  border-bottom-left-radius: 20px;
+  box-shadow: 0 9px 60px black;
+}
+.navbarContainer .navbarWrapper .menu {
+  display: flex;
+  flex-direction: row;
+}
+
+.menu ul {
+  list-style-type: none;
+  display: flex;
+  gap: 6em;
+  align-items: center;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: #0076BE;
+  font-weight: 600;
+}
+.menu ul li a i {
+  padding-left: 0.3em;
+}
+
+.logo img {
+  width: 12em;
+  padding: 1.1em 3em;
+}
+
+.contact {
+  display: flex;
+  padding: 1.8em;
+  gap: 2em;
+  padding-left: 15em;
+}
+.contact i {
+  font-size: 1.2em;
+  color: #0076BE;
+}
+
+.policyTableContainer {
+  width: 100%;
+}
+.policyTableContainer .wrapper {
+  width: 85%;
+  margin: 0 auto;
+}
+.policyTableContainer .wrapper .text {
+  color: #0076BE;
+}
+.policyTableContainer .wrapper .text h1 {
+  font-size: 3em;
+}
+.policyTableContainer .wrapper .text p {
+  font-size: 1.2em;
+}
+.policyTableContainer .wrapper .planBtnGroup {
+  margin-top: 8em;
+  width: 60%;
+  display: flex;
+  position: relative;
+  Left: 28em;
+  justify-content: space-evenly;
+  padding: 1em 1.2em;
+  background-color: #E2E8F0;
+  border-radius: 10px;
+  box-shadow: 0px 3px 5px -2px grey;
+}
+.policyTableContainer .wrapper .planBtnGroup button {
+  padding: 1em 2.5em;
+  font-size: 1em;
+  font-weight: 600;
+  color: #0076BE;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0px 3px 5px -2px grey;
+}
+.policyTableContainer .wrapper .planBtnGroup button:hover {
+  background-color: #0076BE;
+  color: white;
+}
+.policyTableContainer .wrapper .policyTable {
+  padding-top: 4em;
+  width: 90%;
+  margin: 0 auto;
+  color: #0076BE;
+}
+.policyTableContainer .wrapper .policyTable .primary {
+  border: 1px solid red;
+}
+.policyTableContainer .wrapper .policyTable .primary tr {
+  display: flex;
+  gap: 5em;
+}
+.policyTableContainer .wrapper .policyTable .primary tr th:nth-of-type(1) {
+  margin-right: 25em;
+}
+.policyTableContainer .wrapper .policyTable .primary tr td:nth-of-type(1) {
+  margin-right: 20em;
+}
+.policyTableContainer .wrapper .policyTable .secondary {
+  border: 1px solid red;
+}
+.policyTableContainer .wrapper .policyTable .secondary tr th:nth-of-type(1) {
+  text-align: left;
+}
+.policyTableContainer .wrapper .policyTable .secondary tr td {
+  margin-left: 5em;
+}
+
+/*# sourceMappingURL=PolicyTable.module.css.map */
