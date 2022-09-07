@@ -45,6 +45,9 @@ const PolicyTable = () => {
               <thead>
                 <tr>
                   <th>Main features</th>
+                  <th></th>
+                  <th></th>
+                  <th></th>
                 </tr>
               </thead>
               <tbody>

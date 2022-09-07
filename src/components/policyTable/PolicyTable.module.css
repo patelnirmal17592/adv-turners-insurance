@@ -100,6 +100,9 @@
 .policyTableContainer .wrapper .policyTable .primary table {
   width: 100%;
 }
+.policyTableContainer .wrapper .policyTable .primary table thead tr {
+  border: 2px solid;
+}
 .policyTableContainer .wrapper .policyTable .primary table thead th:nth-of-type(1) {
   text-align: left;
 }
@@ -115,12 +118,17 @@
 .policyTableContainer .wrapper .policyTable .secondary table {
   width: 100%;
 }
-.policyTableContainer .wrapper .policyTable .secondary table thead th:nth-of-type(1) {
+.policyTableContainer .wrapper .policyTable .secondary table thead th {
   text-align: left;
+  padding: 1em 1em;
+  background-color: #DDDDDD;
+  border-bottom: 2px solid;
 }
 .policyTableContainer .wrapper .policyTable .secondary table tbody td {
   text-align: center;
   width: 15em;
+  padding: 1em 0;
+  border-bottom: 1px solid;
 }
 .policyTableContainer .wrapper .policyTable .secondary table tbody td:nth-of-type(1) {
   text-align: left;
