@@ -1,6 +1,9 @@
 .navbarContainer {
   width: 100%;
   background-color: #0076BE;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 .navbarContainer .navbarWrapper {
   width: 95%;
@@ -8,7 +11,7 @@
   background-color: #E2E8F0;
   display: flex;
   border-bottom-left-radius: 20px;
-  box-shadow: 0 10px 15px 5px #CCCCCC;
+  box-shadow: 0 9px 60px black;
 }
 .navbarContainer .navbarWrapper .menu {
   display: flex;

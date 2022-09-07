@@ -1,0 +1,100 @@
+.navbarContainer {
+  width: 100%;
+  background-color: #0076BE;
+}
+.navbarContainer .navbarWrapper {
+  width: 95%;
+  margin: 0 0 0 auto;
+  background-color: #E2E8F0;
+  display: flex;
+  border-bottom-left-radius: 20px;
+  box-shadow: 0 10px 15px 5px #CCCCCC;
+}
+.navbarContainer .navbarWrapper .menu {
+  display: flex;
+  flex-direction: row;
+}
+
+.menu ul {
+  list-style-type: none;
+  display: flex;
+  gap: 6em;
+  align-items: center;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: #0076BE;
+  font-weight: 600;
+}
+.menu ul li a i {
+  padding-left: 0.3em;
+}
+
+.logo img {
+  width: 12em;
+  padding: 1.1em 3em;
+}
+
+.contact {
+  display: flex;
+  padding: 1.8em;
+  gap: 2em;
+  padding-left: 15em;
+}
+.contact i {
+  font-size: 1.2em;
+  color: #0076BE;
+}
+
+.heroImageContainer {
+  width: 100%;
+  background-color: #0076BE;
+  height: 70vh;
+}
+.heroImageContainer .heroText {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 9em;
+  color: white;
+  gap: 1em;
+}
+.heroImageContainer .heroText h1 {
+  font-size: 3em;
+}
+.heroImageContainer .heroText h2 {
+  font-size: 2em;
+}
+.heroImageContainer .heroText p {
+  font-size: 1.2em;
+}
+.heroImageContainer .heroText button {
+  width: 20em;
+  padding: 1em;
+  color: #0076BE;
+  font-weight: 600;
+  font-size: 1em;
+  border-radius: 8px;
+  border: none;
+  box-shadow: 0px 8px 15px -4px black;
+  background-color: #E2E8F0;
+}
+.heroImageContainer .heroImage {
+  position: absolute;
+  right: 0;
+  top: 10em;
+}
+.heroImageContainer .heroImage img {
+  background: fill;
+  width: 35em;
+  border-top-left-radius: 80px;
+  border-bottom-left-radius: 80px;
+  border: 30px solid #0076BE;
+  border-right: none;
+  box-shadow: 0 10px 15px -2px black;
+  z-index: 1;
+}
+
+/*# sourceMappingURL=HeroImage.module.css.map */
