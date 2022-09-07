@@ -1,0 +1,52 @@
+$primary-color: #0076BE
+$secondary-color: #9A9B9C
+$grey-shadeA: #CCCCCC
+$grey-shadeB: #DDDDDD
+$background-navbar: #E2E8F0
+
+.navbarContainer
+    // border: 1px solid red
+    width: 100%
+    background-color: $primary-color
+
+    .navbarWrapper
+        // border: 1px solid red
+        width: 95%
+        margin: 0 0 0 auto
+        background-color: $background-navbar
+        display: flex
+        border-bottom-left-radius: 20px
+        box-shadow: 0 10px 15px 5px $grey-shadeA
+
+        .menu
+            // border: 1px solid blue
+            display: flex
+            flex-direction: row
+
+.menu ul
+    list-style-type: none
+    display: flex
+    gap: 6em
+    align-items: center
+
+    li a
+        text-decoration: none
+        color: $primary-color
+        font-weight: 600
+
+        i
+            padding-left: 0.3em
+
+.logo img
+    width: 12em
+    padding: 1.1em 3em
+
+.contact
+    display: flex
+    padding: 1.8em
+    gap: 2em
+    padding-left: 15em
+
+    i
+        font-size: 1.2em
+        color: $primary-color
