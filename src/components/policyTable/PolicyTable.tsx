@@ -41,204 +41,203 @@ const PolicyTable = () => {
             </table>
           </div>
           <div className={style.secondary}>
-            <thead>
-              <tr>
-                <th>Main feature</th>
-                <th>1</th>
-                <th>2</th>
-                <th>3</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>
-                  Transport cover <i className="fa-solid fa-circle-info"></i>
-                </td>
-                <td>
-                  <i className="fa-solid fa-check"></i>
-                </td>
-                <td>
-                  <i className="fa-solid fa-check"></i>
-                </td>
-                <td>
-                  <i className="fa-solid fa-check"></i>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  Damage by uninsured drivers{" "}
-                  <i className="fa-solid fa-circle-info"></i>
-                </td>
-                <td>
-                  <i className="fa-solid fa-check"></i>
-                </td>
-                <td>
-                  <i className="fa-solid fa-check"></i>
-                </td>
-                <td>
-                  <i className="fa-solid fa-check"></i>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  Replacement car cover{" "}
-                  <i className="fa-solid fa-circle-info"></i>
-                </td>
-                <td>
-                  <i className="fa-solid fa-check"></i>
-                </td>
-                <td>
-                  <i className="fa-solid fa-check"></i>
-                </td>
-                <td>
-                  <i className="fa-solid fa-check"></i>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  Emergency travel, accomodation and repairs{" "}
-                  <i className="fa-solid fa-circle-info"></i>
-                </td>
-                <td>
-                  <i className="fa-solid fa-check"></i>
-                </td>
-                <td>
-                  <i className="fa-solid fa-check"></i>
-                </td>
-                <td>
-                  <i className="fa-solid fa-check"></i>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  Towing and storage costs{" "}
-                  <i className="fa-solid fa-circle-info"></i>
-                </td>
-                <td>
-                  <i className="fa-solid fa-check"></i>
-                </td>
-                <td>
-                  <i className="fa-solid fa-check"></i>
-                </td>
-                <td>
-                  <i className="fa-solid fa-check"></i>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  Hire after car theft{" "}
-                  <i className="fa-solid fa-circle-info"></i>
-                </td>
-                <td>
-                  <i className="fa-solid fa-check"></i>
-                </td>
-                <td>
-                  <i className="fa-solid fa-check"></i>
-                </td>
-                <td>
-                  <i className="fa-solid fa-check"></i>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  Lock and keys <i className="fa-solid fa-circle-info"></i>
-                </td>
-                <td>
-                  <i className="fa-solid fa-check"></i>
-                </td>
-                <td>
-                  <i className="fa-solid fa-check"></i>
-                </td>
-                <td>
-                  <i className="fa-solid fa-check"></i>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  New for old car replacement{" "}
-                  <i className="fa-solid fa-circle-info"></i>
-                </td>
-                <td>
-                  <i className="fa-solid fa-check"></i>
-                </td>
-                <td>
-                  <i className="fa-solid fa-check"></i>
-                </td>
-                <td>
-                  <i className="fa-solid fa-check"></i>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  Trailor cover <i className="fa-solid fa-circle-info"></i>
-                </td>
-                <td>
-                  <i className="fa-solid fa-check"></i>
-                </td>
-                <td>
-                  <i className="fa-solid fa-check"></i>
-                </td>
-                <td>
-                  <i className="fa-solid fa-check"></i>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  Excess-free windscreen and windowglass{" "}
-                  <i className="fa-solid fa-circle-info"></i>
-                </td>
-                <td>
-                  <i className="fa-solid fa-check"></i>
-                </td>
-                <td>
-                  <i className="fa-solid fa-check"></i>
-                </td>
-                <td>
-                  <i className="fa-solid fa-check"></i>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  Breakdown cover <i className="fa-solid fa-circle-info"></i>
-                </td>
-                <td>
-                  <i className="fa-solid fa-check"></i>
-                </td>
-                <td>
-                  <i className="fa-solid fa-check"></i>
-                </td>
-                <td>
-                  <i className="fa-solid fa-check"></i>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  Mechanical insurance{" "}
-                  <i className="fa-solid fa-circle-info"></i>
-                </td>
-                <td>
-                  <i className="fa-solid fa-check"></i>
-                </td>
-                <td>
-                  <i className="fa-solid fa-check"></i>
-                </td>
-                <td>
-                  <i className="fa-solid fa-check"></i>
-                </td>
-              </tr>
-              <tr>
-                <td>Download policy wordings</td>
-                <td>
-                  <i className="fa-solid fa-file-arrow-down"></i>
-                </td>
-                <td>
-                  <i className="fa-solid fa-file-arrow-down"></i>
-                </td>
-                <td>
-                  <i className="fa-solid fa-file-arrow-down"></i>
-                </td>
-              </tr>
-            </tbody>
+            <table>
+              <thead>
+                <tr>
+                  <th>Main features</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    Transport cover <i className="fa-solid fa-circle-info"></i>
+                  </td>
+                  <td>
+                    <i className="fa-solid fa-check"></i>
+                  </td>
+                  <td>
+                    <i className="fa-solid fa-check"></i>
+                  </td>
+                  <td>
+                    <i className="fa-solid fa-check"></i>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    Damage by uninsured drivers{" "}
+                    <i className="fa-solid fa-circle-info"></i>
+                  </td>
+                  <td>
+                    <i className="fa-solid fa-check"></i>
+                  </td>
+                  <td>
+                    <i className="fa-solid fa-check"></i>
+                  </td>
+                  <td>
+                    <i className="fa-solid fa-check"></i>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    Replacement car cover{" "}
+                    <i className="fa-solid fa-circle-info"></i>
+                  </td>
+                  <td>
+                    <i className="fa-solid fa-check"></i>
+                  </td>
+                  <td>
+                    <i className="fa-solid fa-check"></i>
+                  </td>
+                  <td>
+                    <i className="fa-solid fa-check"></i>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    Emergency travel, accomodation and repairs{" "}
+                    <i className="fa-solid fa-circle-info"></i>
+                  </td>
+                  <td>
+                    <i className="fa-solid fa-check"></i>
+                  </td>
+                  <td>
+                    <i className="fa-solid fa-check"></i>
+                  </td>
+                  <td>
+                    <i className="fa-solid fa-check"></i>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    Towing and storage costs{" "}
+                    <i className="fa-solid fa-circle-info"></i>
+                  </td>
+                  <td>
+                    <i className="fa-solid fa-check"></i>
+                  </td>
+                  <td>
+                    <i className="fa-solid fa-check"></i>
+                  </td>
+                  <td>
+                    <i className="fa-solid fa-check"></i>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    Hire after car theft{" "}
+                    <i className="fa-solid fa-circle-info"></i>
+                  </td>
+                  <td>
+                    <i className="fa-solid fa-check"></i>
+                  </td>
+                  <td>
+                    <i className="fa-solid fa-check"></i>
+                  </td>
+                  <td>
+                    <i className="fa-solid fa-check"></i>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    Lock and keys <i className="fa-solid fa-circle-info"></i>
+                  </td>
+                  <td>
+                    <i className="fa-solid fa-check"></i>
+                  </td>
+                  <td>
+                    <i className="fa-solid fa-check"></i>
+                  </td>
+                  <td>
+                    <i className="fa-solid fa-check"></i>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    New for old car replacement{" "}
+                    <i className="fa-solid fa-circle-info"></i>
+                  </td>
+                  <td>
+                    <i className="fa-solid fa-check"></i>
+                  </td>
+                  <td>
+                    <i className="fa-solid fa-check"></i>
+                  </td>
+                  <td>
+                    <i className="fa-solid fa-check"></i>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    Trailor cover <i className="fa-solid fa-circle-info"></i>
+                  </td>
+                  <td>
+                    <i className="fa-solid fa-check"></i>
+                  </td>
+                  <td>
+                    <i className="fa-solid fa-check"></i>
+                  </td>
+                  <td>
+                    <i className="fa-solid fa-check"></i>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    Excess-free windscreen and windowglass{" "}
+                    <i className="fa-solid fa-circle-info"></i>
+                  </td>
+                  <td>
+                    <i className="fa-solid fa-check"></i>
+                  </td>
+                  <td>
+                    <i className="fa-solid fa-check"></i>
+                  </td>
+                  <td>
+                    <i className="fa-solid fa-check"></i>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    Breakdown cover <i className="fa-solid fa-circle-info"></i>
+                  </td>
+                  <td>
+                    <i className="fa-solid fa-check"></i>
+                  </td>
+                  <td>
+                    <i className="fa-solid fa-check"></i>
+                  </td>
+                  <td>
+                    <i className="fa-solid fa-check"></i>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    Mechanical insurance{" "}
+                    <i className="fa-solid fa-circle-info"></i>
+                  </td>
+                  <td>
+                    <i className="fa-solid fa-check"></i>
+                  </td>
+                  <td>
+                    <i className="fa-solid fa-check"></i>
+                  </td>
+                  <td>
+                    <i className="fa-solid fa-check"></i>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Download policy wordings</td>
+                  <td>
+                    <i className="fa-solid fa-file-arrow-down"></i>
+                  </td>
+                  <td>
+                    <i className="fa-solid fa-file-arrow-down"></i>
+                  </td>
+                  <td>
+                    <i className="fa-solid fa-file-arrow-down"></i>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
           </div>
         </div>
       </div>

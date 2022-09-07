@@ -67,10 +67,10 @@
 }
 .policyTableContainer .wrapper .planBtnGroup {
   margin-top: 8em;
-  width: 60%;
+  width: 65%;
   display: flex;
   position: relative;
-  Left: 28em;
+  Left: 32em;
   justify-content: space-evenly;
   padding: 1em 1.2em;
   background-color: #E2E8F0;
@@ -92,13 +92,12 @@
   color: white;
 }
 .policyTableContainer .wrapper .policyTable {
-  padding-top: 4em;
+  padding-top: 2em;
   width: 90%;
   margin: 0 auto;
   color: #0076BE;
 }
 .policyTableContainer .wrapper .policyTable .primary table {
-  border: 1px solid;
   width: 100%;
 }
 .policyTableContainer .wrapper .policyTable .primary table thead th:nth-of-type(1) {
@@ -106,9 +105,25 @@
 }
 .policyTableContainer .wrapper .policyTable .primary table tbody td {
   text-align: center;
+  padding: 2em 0;
 }
 .policyTableContainer .wrapper .policyTable .primary table tbody td:nth-of-type(1) {
   text-align: left;
+  width: 35em;
+}
+.policyTableContainer .wrapper .policyTable .secondary table {
+  width: 100%;
+}
+.policyTableContainer .wrapper .policyTable .secondary table thead th:nth-of-type(1) {
+  text-align: left;
+}
+.policyTableContainer .wrapper .policyTable .secondary table tbody td {
+  text-align: center;
+  width: 15em;
+}
+.policyTableContainer .wrapper .policyTable .secondary table tbody td:nth-of-type(1) {
+  text-align: left;
+  width: 25em;
 }
 
 /*# sourceMappingURL=PolicyTable.module.css.map */
