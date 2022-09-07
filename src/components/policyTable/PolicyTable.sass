@@ -54,14 +54,23 @@
             color: $primary-color
 
             .primary 
-                border: 1px solid green
+                // border: 1px solid green
                 
-                thead, tbody
-                    tr
-                        padding: 5em
-                        border: 1px solid red
-                
-            
+                table
+                    border: 1px solid
+                    width: 100%
+
+                    thead
+                        th:nth-of-type(1)
+                            text-align: left
+
+                    tbody
+                        td
+                            text-align: center
+                        
+                        td:nth-of-type(1)
+                            text-align: left
+
             .secondary
                 // border: 1px solid red
 

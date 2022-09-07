@@ -97,12 +97,18 @@
   margin: 0 auto;
   color: #0076BE;
 }
-.policyTableContainer .wrapper .policyTable .primary {
-  border: 1px solid green;
+.policyTableContainer .wrapper .policyTable .primary table {
+  border: 1px solid;
+  width: 100%;
 }
-.policyTableContainer .wrapper .policyTable .primary thead tr, .policyTableContainer .wrapper .policyTable .primary tbody tr {
-  padding: 5em;
-  border: 1px solid red;
+.policyTableContainer .wrapper .policyTable .primary table thead th:nth-of-type(1) {
+  text-align: left;
+}
+.policyTableContainer .wrapper .policyTable .primary table tbody td {
+  text-align: center;
+}
+.policyTableContainer .wrapper .policyTable .primary table tbody td:nth-of-type(1) {
+  text-align: left;
 }
 
 /*# sourceMappingURL=PolicyTable.module.css.map */
