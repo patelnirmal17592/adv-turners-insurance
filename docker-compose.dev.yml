@@ -1,0 +1,14 @@
+version: "3.9"
+
+services:
+  app:
+    container_name: mission-5-dev
+    image: mission-5-dev
+    build:
+      target: development
+    ports:
+      - 3000:3000
+    volumes:
+      - ./src:/app/src
+    environment:
+      - WATCHPACK_POLLING=true
