@@ -33,9 +33,9 @@ const PolicyTable = () => {
               <tbody>
                 <tr>
                   <td>Prices starting from:</td>
-                  <td>$25/month</td>
-                  <td>$15/month</td>
-                  <td>$10/month</td>
+                  <td><span>$25</span>/month</td>
+                  <td><span>$15</span>/month</td>
+                  <td><span>$10</span>/month</td>
                 </tr>
               </tbody>
             </table>

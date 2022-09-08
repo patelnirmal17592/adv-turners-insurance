@@ -21,11 +21,12 @@
         .planBtnGroup
             // border: 1px solid red
             margin-top: 8em
-            width: 65%
+            width: 58%
             display: flex
             position: relative
-            Left:33em
+            Left:36em
             justify-content: space-evenly
+            gap: 4em
             padding: 1em 1.2em
             background-color: $background-navbar
             border-radius: 10px
@@ -61,18 +62,24 @@
                     width: 100%
 
                     thead
-                        tr
-                            border: 2px solid
+                        tr th
+                            border-bottom: 4px solid
+                            padding-bottom: 1em
 
                         th:nth-of-type(1)
                             text-align: left
+                            padding: 1em 1em
 
                     tbody
                         td
                             text-align: center
                             // border: 1px solid
-                            padding: 2em 0
+                            padding: 2em 1em
                             width: 15em
+
+                            span
+                                font-size: 2em
+                                font-weight: 700
 
                         
                         td:nth-of-type(1)
@@ -98,10 +105,16 @@
                             // border: 1px solid
                             text-align: center
                             width: 15em
-                            padding: 1em 0
+                            padding: 1em 1em
                             border-bottom: 1px solid
 
                         td:nth-of-type(1)
                             text-align: left
                             width: 25em
+
+                        tr:last-child td
+                            font-weight: 700
+                        
+                        tr:last-child i
+                            font-size: 1.5em
 
