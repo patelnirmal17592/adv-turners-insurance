@@ -67,11 +67,12 @@
 }
 .policyTableContainer .wrapper .planBtnGroup {
   margin-top: 8em;
-  width: 60%;
+  width: 58%;
   display: flex;
   position: relative;
-  Left: 28em;
+  Left: 36em;
   justify-content: space-evenly;
+  gap: 4em;
   padding: 1em 1.2em;
   background-color: #E2E8F0;
   border-radius: 10px;
@@ -92,32 +93,59 @@
   color: white;
 }
 .policyTableContainer .wrapper .policyTable {
-  padding-top: 4em;
+  padding-top: 2em;
   width: 90%;
   margin: 0 auto;
   color: #0076BE;
 }
-.policyTableContainer .wrapper .policyTable .primary {
-  border: 1px solid red;
+.policyTableContainer .wrapper .policyTable .primary table {
+  width: 100%;
 }
-.policyTableContainer .wrapper .policyTable .primary tr {
-  display: flex;
-  gap: 5em;
+.policyTableContainer .wrapper .policyTable .primary table thead tr th {
+  border-bottom: 4px solid;
+  padding-bottom: 1em;
 }
-.policyTableContainer .wrapper .policyTable .primary tr th:nth-of-type(1) {
-  margin-right: 25em;
-}
-.policyTableContainer .wrapper .policyTable .primary tr td:nth-of-type(1) {
-  margin-right: 20em;
-}
-.policyTableContainer .wrapper .policyTable .secondary {
-  border: 1px solid red;
-}
-.policyTableContainer .wrapper .policyTable .secondary tr th:nth-of-type(1) {
+.policyTableContainer .wrapper .policyTable .primary table thead th:nth-of-type(1) {
   text-align: left;
+  padding: 1em 1em;
 }
-.policyTableContainer .wrapper .policyTable .secondary tr td {
-  margin-left: 5em;
+.policyTableContainer .wrapper .policyTable .primary table tbody td {
+  text-align: center;
+  padding: 2em 1em;
+  width: 15em;
+}
+.policyTableContainer .wrapper .policyTable .primary table tbody td span {
+  font-size: 2em;
+  font-weight: 700;
+}
+.policyTableContainer .wrapper .policyTable .primary table tbody td:nth-of-type(1) {
+  text-align: left;
+  width: 25em;
+}
+.policyTableContainer .wrapper .policyTable .secondary table {
+  width: 100%;
+}
+.policyTableContainer .wrapper .policyTable .secondary table thead th {
+  text-align: left;
+  padding: 1em 1em;
+  background-color: #DDDDDD;
+  border-bottom: 2px solid;
+}
+.policyTableContainer .wrapper .policyTable .secondary table tbody td {
+  text-align: center;
+  width: 15em;
+  padding: 1em 1em;
+  border-bottom: 1px solid;
+}
+.policyTableContainer .wrapper .policyTable .secondary table tbody td:nth-of-type(1) {
+  text-align: left;
+  width: 25em;
+}
+.policyTableContainer .wrapper .policyTable .secondary table tbody tr:last-child td {
+  font-weight: 700;
+}
+.policyTableContainer .wrapper .policyTable .secondary table tbody tr:last-child i {
+  font-size: 1.5em;
 }
 
 /*# sourceMappingURL=PolicyTable.module.css.map */
