@@ -1,0 +1,73 @@
+.navbarContainer {
+  width: 100%;
+  background-color: #0076BE;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.navbarContainer .navbarWrapper {
+  width: 95%;
+  margin: 0 0 0 auto;
+  background-color: #E2E8F0;
+  display: flex;
+  border-bottom-left-radius: 20px;
+  box-shadow: 0 9px 60px black;
+}
+.navbarContainer .navbarWrapper .menu {
+  display: flex;
+  flex-direction: row;
+}
+
+.menu ul {
+  list-style-type: none;
+  display: flex;
+  gap: 6em;
+  align-items: center;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: #0076BE;
+  font-weight: 600;
+}
+.menu ul li a i {
+  padding-left: 0.3em;
+}
+
+.logo img {
+  width: 12em;
+  padding: 1.1em 3em;
+}
+
+.contact {
+  display: flex;
+  padding: 1.8em;
+  gap: 2em;
+  padding-left: 15em;
+}
+.contact i {
+  font-size: 1.2em;
+  color: #0076BE;
+}
+
+.quoteBtnGrpContainer {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+  gap: 7.2em;
+  padding-top: 1.5em;
+  padding-bottom: 2em;
+  margin-right: 17.5em;
+}
+.quoteBtnGrpContainer button {
+  width: 15em;
+  padding: 1em 1.5em;
+  color: #0076BE;
+  font-weight: 600;
+  border-radius: 8px;
+  border: none;
+  box-shadow: 0px 8px 15px -1px grey;
+  background-color: #E2E8F0;
+}
+
+/*# sourceMappingURL=QuoteButtons.module.css.map */

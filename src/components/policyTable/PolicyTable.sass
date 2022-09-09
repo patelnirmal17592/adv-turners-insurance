@@ -21,11 +21,12 @@
         .planBtnGroup
             // border: 1px solid red
             margin-top: 8em
-            width: 60%
+            width: 58%
             display: flex
             position: relative
-            Left:28em
+            Left:36em
             justify-content: space-evenly
+            gap: 4em
             padding: 1em 1.2em
             background-color: $background-navbar
             border-radius: 10px
@@ -47,21 +48,73 @@
                 color: white
         
         .policyTable
-            padding-top: 4em
+            padding-top: 2em
             width: 90%
             // border: 1px solid red
             margin: 0 auto
             color: $primary-color
 
             .primary 
-                border: 1px solid green
+                // border: 1px solid green
                 
-                thead, tbody
-                    tr
-                        padding: 5em
-                        border: 1px solid red
-                
-            
+                table
+                    // border: 1px solid
+                    width: 100%
+
+                    thead
+                        tr th
+                            border-bottom: 4px solid
+                            padding-bottom: 1em
+
+                        th:nth-of-type(1)
+                            text-align: left
+                            padding: 1em 1em
+
+                    tbody
+                        td
+                            text-align: center
+                            // border: 1px solid
+                            padding: 2em 1em
+                            width: 15em
+
+                            span
+                                font-size: 2em
+                                font-weight: 700
+
+                        
+                        td:nth-of-type(1)
+                            text-align: left
+                            width: 25em
+                            
+
             .secondary
                 // border: 1px solid red
+
+                table
+                    width: 100%
+
+                    thead
+                        th
+                            text-align: left
+                            padding: 1em 1em
+                            background-color: $grey-shadeB
+                            border-bottom: 2px solid
+                        
+                    tbody
+                        td
+                            // border: 1px solid
+                            text-align: center
+                            width: 15em
+                            padding: 1em 1em
+                            border-bottom: 1px solid
+
+                        td:nth-of-type(1)
+                            text-align: left
+                            width: 25em
+
+                        tr:last-child td
+                            font-weight: 700
+                        
+                        tr:last-child i
+                            font-size: 1.5em
 
